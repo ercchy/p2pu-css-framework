@@ -1,0 +1,18 @@
+.nav-pills.nav-stacked {
+	.nav li {
+		a {
+			padding: 5px 15px 5px 25px;
+			font-size: 0.9em;
+			border-left: 1px solid transparent;
+		}
+		&.active, a:hover, a:focus {
+			color: $brand-primary;
+			background-color: $body-bg;
+			border-left: 1px solid $brand-primary;
+			a {
+				color: $brand-primary;
+			}
+
+		}
+	}
+}
